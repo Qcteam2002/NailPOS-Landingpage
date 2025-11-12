@@ -1,0 +1,11 @@
+/* Import CSS Variables - MUST BE FIRST! */
+@import './styles/variables.css';
+@import './styles/reset.css';
+@import './styles/base.css';
+@import './styles/utilities.css';
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

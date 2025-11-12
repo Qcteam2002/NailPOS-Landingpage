@@ -1,0 +1,68 @@
+/* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+  background-color: var(--color-background);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-2xl);
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 0;
+  }
+}
+
+/* Section */
+.section {
+  width: 100%;
+  padding: var(--section-padding-y) 0;
+}
+
+/* Utility Classes for Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Skip to main content */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-inverse);
+  text-decoration: none;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+

@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "solutions": "Giải pháp",
+    "whoItsFor": "Dành cho ai",
+    "pricing": "Bảng giá",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
+  },
+  "buttons": {
+    "freeDemo": "Dùng thử miễn phí",
+    "getStarted": "Bắt đầu ngay",
+    "learnMore": "Tìm hiểu thêm",
+    "readOurStory": "Đọc câu chuyện",
+    "subscribe": "Đăng ký"
+  },
+  "hero": {
+    "label": "Built by a Salon Owner's Husband",
+    "headline": "Love Your Business Again",
+    "headlineLove": "Love Your",
+    "headlineBusiness": "Business",
+    "headlineAgain": "Again",
+    "description": "You opened your salon to create beauty. Let's bring back the joy with tools that actually work.",
+    "bullet1": "Setup in 24 hours",
+    "bullet2": "No long-term contracts",
+    "bullet3": "30-day money-back guarantee",
+    "bullet4": "Free onboarding & training",
+    "ctaPrimary": "See How It Works",
+    "ctaSecondary": "Our Story",
+    "statOwnerHappiness": "Owner Happiness",
+    "statCustomerLoyalty": "Customer Loyalty"
+  },
+  "solutionsHero": {
+    "badge": "Đặt lịch & Lên lịch",
+    "headline": "Không Bao Giờ Bỏ Lỡ Lịch Hẹn Nữa",
+    "description": "Để khách hàng đặt lịch 24/7 khi bạn ngủ, loại bỏ khách không đến với nhắc nhở thông minh, và quản lý khách walk-in một cách liền mạch. Nói lời tạm biệt với sự hỗn loạn lịch trình mãi mãi.",
+    "ctaPrimary": "Xem Cách Hoạt Động",
+    "ctaSecondary": "Tìm Hiểu Thêm"
+  },
+  "stats": {
+    "activeSalons": "Salon hoạt động",
+    "avgRevenueGrowth": "Tăng trưởng doanh thu trung bình",
+    "happinessBoost": "Tăng độ hài lòng",
+    "timeSaved": "Tiết kiệm thời gian",
+    "customerRating": "Đánh giá khách hàng"
+  },
+  "demo": {
+    "label": "What's Inside? Your Dream Together",
+    "title": "Everything You Need to Transform Your Salon",
+    "description": "Four powerful systems that solve your biggest problems and drive real results"
+  },
+  "footer": {
+    "subscription": {
+      "title": "Stay Updated",
+      "description": "Get the latest updates, tips, and industry insight"
+    },
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "legal": "Legal",
+    "termsOfService": "Term of Services",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2025 Easy Nail POS. All rights reserved."
+  }
+}
+

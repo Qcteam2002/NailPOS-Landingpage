@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "solutions": "Solutions",
+    "whoItsFor": "Who It's For",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "freeDemo": "Free Demo",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "readOurStory": "Read Our Story",
+    "subscribe": "Subscribe"
+  },
+  "hero": {
+    "label": "Built by a Salon Owner's Husband",
+    "headline": "Love Your Business Again",
+    "headlineLove": "Love Your",
+    "headlineBusiness": "Business",
+    "headlineAgain": "Again",
+    "description": "You opened your salon to create beauty. Let's bring back the joy with tools that actually work.",
+    "bullet1": "Setup in 24 hours",
+    "bullet2": "No long-term contracts",
+    "bullet3": "30-day money-back guarantee",
+    "bullet4": "Free onboarding & training",
+    "ctaPrimary": "See How It Works",
+    "ctaSecondary": "Our Story",
+    "statOwnerHappiness": "Owner Happiness",
+    "statCustomerLoyalty": "Customer Loyalty"
+  },
+  "solutionsHero": {
+    "badge": "Booking & Scheduling",
+    "headline": "Never Miss Another Appointment Again",
+    "description": "Let clients book 24/7 while you sleep, eliminate no-shows with smart reminders, and manage walk-ins seamlessly. Say goodbye to scheduling chaos forever.",
+    "ctaPrimary": "See How It Works",
+    "ctaSecondary": "Learn More"
+  },
+  "stats": {
+    "activeSalons": "Active Salons",
+    "avgRevenueGrowth": "Avg Revenue Growth",
+    "happinessBoost": "Happiness Boost",
+    "timeSaved": "Time Saved",
+    "customerRating": "Customer Rating"
+  },
+  "demo": {
+    "label": "What's Inside? Your Dream Together",
+    "title": "Everything You Need to Transform Your Salon",
+    "description": "Four powerful systems that solve your biggest problems and drive real results"
+  },
+  "footer": {
+    "subscription": {
+      "title": "Stay Updated",
+      "description": "Get the latest updates, tips, and industry insight"
+    },
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "legal": "Legal",
+    "termsOfService": "Term of Services",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2025 Easy Nail POS. All rights reserved."
+  }
+}
+

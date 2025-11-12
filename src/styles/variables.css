@@ -1,0 +1,166 @@
+/* styles/variables.css */
+:root {
+  /* ===== COLORS ===== */
+  /* Primary Colors - Indigo */
+  --color-primary: #6366F1;
+  --color-primary-dark: #4F46E5;
+  --color-primary-light: #818CF8;
+  --color-primary-lighter: #A5B4FC;
+  
+  /* Secondary/Accent Colors - Pink */
+  --color-accent: #FA6985;
+  --color-accent-dark: #F43F5E;
+  --color-accent-light: #FB9DB0;
+  
+  /* Text Colors */
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #374151;
+  --color-text-tertiary: #6B7280;
+  --color-text-muted: #9CA3AF;
+  --color-text-slate: #475569;
+  --color-text-inverse: #FFFFFF;
+  
+  /* Background Colors */
+  --color-background: #FFFFFF;
+  --color-background-overlay: rgba(255, 255, 255, 0.72);
+  --color-background-gray: #F9FAFB;
+  --color-background-slate: #F3F4F6;
+  --color-background-blue: #EFF6FF;
+  --color-background-dark: #111827;
+  --color-background-indigo-light: #EEF2FF;
+  --color-background-pink-light: #FFF6F8;
+  --color-background-green-light: #ECFDF5;
+  
+  /* Border Colors */
+  --color-border: #E5E7EB;
+  --color-border-primary: #4F46E5;
+  --color-border-dark: #D1D5DB;
+  --color-border-overlay: rgba(255, 255, 255, 0.12);
+  
+  /* Success/Status Colors */
+  --color-success: #10B981;
+  --color-success-light: #00BC7D;
+  --color-success-bg: #ECFDF5;
+  
+  /* Warning/Star Colors */
+  --color-warning: #FACC15;
+  
+  /* Icon Colors */
+  --color-icon-bg-blue: #EFF6FF;
+  --color-icon-blue: #3B82F6;
+  --color-icon-blue-border: #00A6F4;
+  --color-icon-pink: #F9A8D4;
+  
+  /* Gradient Colors */
+  --gradient-primary: linear-gradient(90deg, #FA6985 0%, #818CF8 100%);
+  --gradient-primary-alt: linear-gradient(90deg, #FA6985 0%, #4F46E5 100%);
+  --gradient-decor: linear-gradient(90deg, #FA6985 0%, #818CF8 100%);
+  --gradient-cta: linear-gradient(0deg, #FFF6F8 0%, #E0E7FF 100%);
+  
+  /* ===== TYPOGRAPHY ===== */
+  /* Font Family */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 28px;
+  --font-size-4xl: 36px;
+  --font-size-5xl: 48px;
+  --font-size-6xl: 72px;
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  
+  /* Line Heights */
+  --line-height-xs: 16px;
+  --line-height-sm: 20px;
+  --line-height-base: 24px;
+  --line-height-lg: 28px;
+  --line-height-xl: 36px;
+  --line-height-2xl: 44px;
+  --line-height-3xl: 56px;
+  --line-height-4xl: 80px;
+  
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.75px;
+  --letter-spacing-normal: 0px;
+  --letter-spacing-wide: 0.15px;
+  --letter-spacing-wider: 0.25px;
+  
+  /* ===== SPACING ===== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 36px;
+  --spacing-4xl: 48px;
+  --spacing-5xl: 64px;
+  --spacing-6xl: 150px;
+  
+  /* Component Specific Spacing */
+  --header-height: 68px;
+  --header-padding-x: 36px;
+  --section-padding-y: 64px;
+  --section-padding-x: 48px;
+  --container-max-width: 1168px;
+  
+  /* Button Sizes */
+  --button-sm-padding-x: 24px;
+  --button-sm-padding-y: 12px;
+  --button-sm-height: 44px;
+  --button-md-padding-x: 32px;
+  --button-md-padding-y: 16px;
+  --button-md-height: 52px;
+  --button-gap: 8px;
+  --button-icon-size: 16px;
+  
+  /* ===== BORDER RADIUS ===== */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-full: 9999px;
+  
+  /* ===== SHADOWS ===== */
+  --shadow-none: none;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-header: 0px 12px 24px rgba(0, 0, 0, 0.04);
+  --shadow-glass: 0px 0px 16px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+  
+  /* ===== EFFECTS ===== */
+  --backdrop-blur: blur(32px);
+  
+  /* ===== TRANSITIONS ===== */
+  --transition-fast: 150ms;
+  --transition-base: 300ms;
+  --transition-slow: 500ms;
+  --transition-ease: ease-in-out;
+  
+  /* ===== Z-INDEX ===== */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-tooltip: 600;
+}
+
